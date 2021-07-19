@@ -20,7 +20,7 @@
 
 
 - name: Installing aws-iam-authenticator
-  command: go get -u -v github.com/kubernetes-sigs/aws-iam-authenticator/cmd/aws-iam-authenticator
+  command: go get -u -v github.com/kubernetes-sigs/aws-iam-authenticator/tree/master/cmd/aws-iam-authenticator
 
 
 - name: Moving aws-iam-authenticator binary
